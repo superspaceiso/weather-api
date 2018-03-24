@@ -1,0 +1,55 @@
+body{
+  font-family: sans-serif;
+}
+
+.scale{
+  font-size: 90px;
+}
+
+#5dayweather{
+  width: 1200px;
+  height: 300px;
+}
+
+#location{
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.day{
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+
+.day:last-child{
+  border-right: none;
+}
+
+.dayheader{
+  font-size: 14px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px 0px 5px 0px;
+}
+
+.weather{
+  height: 100px;
+}
+
+.weatherdescription{
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 0px 5px 0px;
+}
+
+.dayhigh{
+  text-align: center;
+  font-weight: bold;
+}
+
+.daylow{
+  text-align: center;
+}
